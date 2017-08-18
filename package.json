@@ -1,6 +1,6 @@
 {
-  "name": "mws-sdk-promises",
-  "description": "Amazon Marketplace Web Services client with support for all api calls, using ES6 Promises.",
+  "name": "kjd-mws-sdk-promises",
+  "description": "Forked from mws-sdk-promises. 'Amazon Marketplace Web Services client with support for all api calls, using ES6 Promises.'",
   "keywords": [
     "mws",
     "amazon",
@@ -24,6 +24,9 @@
   }, {
     "name": "Alex I. Vedmedenko",
     "email": "vedmalex@gmail.com"
+  }, {
+    "name": "Kevin J Dolan",
+    "email": "git@kevinjdolan.com"
   }],
   "main": "./lib/mws",
   "directories": {
@@ -31,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vedmalex/mws-sdk.git"
+    "url": "https://github.com/kjdElectronics/mws-sdk
   },
   "dependencies": {
     "xml2js": "^0.4.12",
