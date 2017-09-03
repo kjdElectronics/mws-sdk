@@ -9,25 +9,30 @@
     "sellers"
   ],
   "homepage": "http://_",
-  "version": "0.9.21",
+  "version": "0.9.22",
   "author": {
     "name": "Eibbor Srenduas",
     "email": "robbies@eibbors.net",
     "url": "http://eibbors.net"
   },
-  "contributors": [{
-    "name": "Adrian Sanchezdelc",
-    "email": "adrian@ticadia.com"
-  }, {
-    "name": "David F. Sklar",
-    "email": "dfsklar@gmail.com"
-  }, {
-    "name": "Alex I. Vedmedenko",
-    "email": "vedmalex@gmail.com"
-  }, {
-    "name": "Kevin J Dolan",
-    "email": "git@kevinjdolan.com"
-  }],
+  "contributors": [
+    {
+      "name": "Adrian Sanchezdelc",
+      "email": "adrian@ticadia.com"
+    },
+    {
+      "name": "David F. Sklar",
+      "email": "dfsklar@gmail.com"
+    },
+    {
+      "name": "Alex I. Vedmedenko",
+      "email": "vedmalex@gmail.com"
+    },
+    {
+      "name": "Kevin J Dolan",
+      "email": "git@kevinjdolan.com"
+    }
+  ],
   "main": "./lib/mws",
   "directories": {
     "lib": "./lib"
@@ -37,10 +42,11 @@
     "url": "https://github.com/kjdElectronics/mws-sdk"
   },
   "dependencies": {
-    "xml2js": "^0.4.12",
     "bluebird": "3.4.1",
+    "qs": "^6.5.0",
+    "request": "^2.60.0",
     "underscore": "^1.8.3",
-    "request": "^2.60.0"
+    "xml2js": "^0.4.12"
   },
   "devDependencies": {
     "assert": "^1.3.0",
